@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ComfortAging - Dignity, Comfort, and a Place to Call Home</title>
+  <meta name="description" content="Premium elderly care home providing compassionate assisted living, memory care, and holistic wellness in a warm, home-like environment.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navigation">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <div class="nav-logo-circle">CA</div>
+        <div class="nav-logo-text">
+          <h1>ComfortAging</h1>
+          <p class="nav-logo-tagline">Dignity, Comfort, Home</p>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-primary">Schedule a Tour</a>
+      </div>
+    </div>
+
+    <div class="contact-bar container">
+      <a href="tel:+13823394838">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        <span>+1-382-339-4838</span>
+      </a>
+      <a href="mailto:care@ComfortAging.site">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+        <span>care@ComfortAging.site</span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- Accessibility Bar -->
+  <div id="accessibilityBar" class="accessibility-bar">
+    <div class="accessibility-bar-header">
+      <svg class="icon-lg" style="color: var(--primary); margin: 0 auto;" viewBox="0 0 24 24"><polyline points="4 7 4 4 20 4 20 7"></polyline><line x1="9" y1="20" x2="15" y2="20"></line><line x1="12" y1="4" x2="12" y2="20"></line></svg>
+      <p>Text Size</p>
+    </div>
+    
+    <button id="increaseFontBtn" class="accessibility-btn" aria-label="Increase text size">
+      <svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+    </button>
+
+    <button id="resetFontBtn" class="accessibility-btn" aria-label="Reset text size">
+      A
+    </button>
+
+    <button id="decreaseFontBtn" class="accessibility-btn" aria-label="Decrease text size">
+      <svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+    </button>
+
+    <div class="accessibility-info">
+      <span id="fontSizeDisplay">18px</span>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <h1 class="hero-title">Dignity, Comfort, and a Place to Call Home</h1>
+          <p class="hero-description">
+            At ComfortAging, we blend compassionate care with modern wellness in a warm, 
+            home-like environment where your loved ones can thrive with dignity and joy.
+          </p>
+          <div class="hero-buttons">
+            <a href="contact.html" class="btn btn-primary">
+              <svg class="icon" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+              Schedule a Tour
+            </a>
+            <button class="btn btn-outline">
+              <svg class="icon" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              Virtual Tour
+            </button>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1545113658-eea9cccdb4a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGRlcmx5JTIwd29tYW4lMjBjYXJlZ2l2ZXIlMjBnYXJkZW4lMjBsYXVnaGluZ3xlbnwxfHx8fDE3NzA2NDg5NjR8MA&ixlib=rb-4.1.0&q=80&w=1080" 
+               alt="Caregiver and resident sharing a joyful moment in the garden">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Indicators -->
+  <section class="section section-bg-white">
+    <div class="container">
+      <div class="grid md-grid-cols-3">
+        <div class="card card-rounded text-center" style="background-color: var(--secondary);">
+          <div class="icon-circle" style="margin-bottom: 1rem;">
+            <svg class="icon-lg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          </div>
+          <h3 class="text-primary" style="margin-bottom: 1rem;">24/7 Medical Staff</h3>
+          <p class="text-muted">Round-the-clock professional nursing care with immediate response to any need.</p>
+        </div>
+
+        <div class="card card-rounded text-center" style="background-color: var(--secondary);">
+          <div class="icon-circle" style="margin-bottom: 1rem;">
+            <svg class="icon-lg" viewBox="0 0 24 24"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path><path d="M7 2v20"></path><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"></path></svg>
+          </div>
+          <h3 class="text-primary" style="margin-bottom: 1rem;">Chef-Prepared Meals</h3>
+          <p class="text-muted">Nutritious, delicious meals crafted daily with dietary preferences in mind.</p>
+        </div>
+
+        <div class="card card-rounded text-center" style="background-color: var(--secondary);">
+          <div class="icon-circle" style="margin-bottom: 1rem;">
+            <svg class="icon-lg" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          </div>
+          <h3 class="text-primary" style="margin-bottom: 1rem;">Daily Wellness Activities</h3>
+          <p class="text-muted">Engaging programs from art classes to gentle yoga, keeping minds and bodies active.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Life at ComfortAging -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Life at ComfortAging</h2>
+        <p class="section-description">
+          Every day is filled with meaningful moments, warm connections, and personalized care
+          that honors each resident's unique story.
+        </p>
+      </div>
+
+      <div class="grid md-grid-cols-3">
+        <div class="card">
+          <div class="card-image" style="height: 16rem; margin-bottom: 1.5rem;">
+            <img src="https://images.unsplash.com/photo-1631981782640-9eec0cca25f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGRlcmx5JTIwbWFuJTIwZ2FyZGVuaW5nJTIwdmVnZXRhYmxlcyUyMG91dGRvb3JzfGVufDF8fHx8MTc3MDY0ODk3NXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Senior gardening outdoors">
+          </div>
+          <h3 class="text-primary" style="margin-bottom: 0.5rem;">Therapeutic Gardens</h3>
+          <p class="text-muted">Nurture plants and find peace in our sunlit garden spaces designed for relaxation and activity.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-image" style="height: 16rem; margin-bottom: 1.5rem;">
+            <img src="https://images.unsplash.com/photo-1501999054620-be9719bd7e64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGRlcmx5JTIwcGVvcGxlJTIwYXJ0JTIwY2xhc3MlMjBwYWludGluZ3xlbnwxfHx8fDE3NzA2NDg5Njh8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Elderly people in art class">
+          </div>
+          <h3 class="text-primary" style="margin-bottom: 0.5rem;">Creative Arts Programs</h3>
+          <p class="text-muted">Express yourself through painting, music, and crafts in our inspiring studio spaces.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-image" style="height: 16rem; margin-bottom: 1.5rem;">
+            <img src="https://images.unsplash.com/photo-1718862403436-616232ec6005?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZW5pb3IlMjB3b21hbiUyMHlvZ2ElMjB3ZWxsbmVzcyUyMGV4ZXJjaXNlfGVufDF8fHx8MTc3MDY0ODk2OXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Senior woman doing yoga">
+          </div>
+          <h3 class="text-primary" style="margin-bottom: 0.5rem;">Wellness & Movement</h3>
+          <p class="text-muted">Stay active with gentle yoga, physiotherapy, and personalized fitness programs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section section-bg-primary">
+    <div class="container" style="max-width: 56rem; text-align: center;">
+      <svg class="icon-xl" style="color: white; margin: 0 auto 1.5rem;" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+      <h2 style="color: white; font-size: 2.5rem; margin-bottom: 1rem;">Ready to Visit ComfortAging?</h2>
+      <p style="color: rgba(255, 255, 255, 0.9); font-size: 1.25rem; margin-bottom: 2rem;">
+        Experience our warm, welcoming environment firsthand. Schedule a personal tour 
+        and see why families trust us with their loved ones' care.
+      </p>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+        <a href="contact.html" class="btn btn-white">Book a Visit Today</a>
+        <a href="tel:+13823394838" class="btn btn-outline-white">Call +1-382-339-4838</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section class="section section-bg-secondary">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Insights & Resources</h2>
+        <p class="section-description">
+          Expert guidance and thoughtful perspectives on senior care, wellness, 
+          and living well in your golden years.
+        </p>
+      </div>
+
+      <div class="grid md-grid-cols-3" style="margin-bottom: 3rem;">
+        <article class="blog-card">
+          <div class="blog-card-image">
+            <img src="https://images.unsplash.com/photo-1581579186913-45ac3e648364?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGRlcmx5JTIwbXVzaWMlMjB0aGVyYXB5JTIwc2VuaW9yfGVufDF8fHx8MTc3MDY0ODk5MHww&ixlib=rb-4.1.0&q=80&w=1080" alt="Music therapy for seniors">
+            <span class="blog-category">Wellness</span>
+          </div>
+          <div class="blog-card-content">
+            <div class="blog-meta">
+              <div class="blog-meta-item">
+                <svg class="icon" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                <span>February 5, 2026</span>
+              </div>
+              <div class="blog-meta-item">
+                <svg class="icon" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                <span>Dr. Sarah Mitchell</span>
+              </div>
+            </div>
+            <h3 class="blog-title">The Healing Power of Music Therapy for Seniors</h3>
+            <p class="blog-excerpt">
+              Discover how music therapy enhances emotional well-being, cognitive function, and social connection in elderly care.
+            </p>
+            <a href="blog-post.html" class="blog-read-more">
+              Read More
+              <svg class="icon" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-card-image">
+            <img src="https://images.unsplash.com/photo-1593115057322-e94b77572f20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGRlcmx5JTIwaG9tZSUyMHJvb20lMjBjb3p5fGVufDF8fHx8MTc3MDY0ODk5Mnww&ixlib=rb-4.1.0&q=80&w=1080" alt="Memory-friendly environment">
+            <span class="blog-category">Memory Care</span>
+          </div>
+          <div class="blog-card-content">
+            <div class="blog-meta">
+              <div class="blog-meta-item">
+                <svg class="icon" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                <span>January 28, 2026</span>
+              </div>
+              <div class="blog-meta-item">
+                <svg class="icon" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                <span>Linda Chen, RN</span>
+              </div>
+            </div>
+            <h3 class="blog-title">Creating a Memory-Friendly Environment at Home</h3>
+            <p class="blog-excerpt">
+              Practical tips and insights on designing living spaces that support individuals with memory challenges.
+            </p>
+            <a href="blog-post.html" class="blog-read-more">
+              Read More
+              <svg class="icon" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-card-image">
+            <img src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwZm9vZCUyMHNhbGFkJTIwbnV0cml0aW9ufGVufDF8fHx8MTc3MDY0ODk5M3ww&ixlib=rb-4.1.0&q=80&w=1080" alt="Healthy nutrition">
+            <span class="blog-category">Nutrition</span>
+          </div>
+          <div class="blog-card-content">
+            <div class="blog-meta">
+              <div class="blog-meta-item">
+                <svg class="icon" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                <span>January 21, 2026</span>
+              </div>
+              <div class="blog-meta-item">
+                <svg class="icon" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                <span>Chef Marcus Thompson</span>
+              </div>
+            </div>
+            <h3 class="blog-title">Nutrition and Aging: What Seniors Need to Thrive</h3>
+            <p class="blog-excerpt">
+              Learn about essential nutrients, meal planning strategies, and the role of diet in healthy aging.
+            </p>
+            <a href="blog-post.html" class="blog-read-more">
+              Read More
+              <svg class="icon" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <div class="text-center">
+        <a href="blog-post.html" class="btn btn-primary">
+          View All Articles
+          <svg class="icon" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <div class="footer-brand-circle">CA</div>
+            <h3 style="margin: 0;">ComfortAging</h3>
+          </div>
+          <p style="font-size: 0.875rem; color: var(--muted-foreground); line-height: 1.7;">
+            Providing dignified, compassionate care in a warm, home-like environment where residents thrive.
+          </p>
+        </div>
+
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="legal.html">Legal & Privacy</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Our Services</h4>
+          <ul>
+            <li style="font-size: 0.875rem; color: var(--muted-foreground);">Assisted Living</li>
+            <li style="font-size: 0.875rem; color: var(--muted-foreground);">Memory Care</li>
+            <li style="font-size: 0.875rem; color: var(--muted-foreground);">Respite Care</li>
+            <li style="font-size: 0.875rem; color: var(--muted-foreground);">Holistic Wellness</li>
+            <li style="font-size: 0.875rem; color: var(--muted-foreground);">24/7 Medical Staff</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contact Us</h4>
+          <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+            <a href="tel:+13823394838" style="display: flex; align-items: flex-start; gap: 0.5rem;">
+              <svg class="icon" style="margin-top: 0.125rem;" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <span>+1-382-339-4838</span>
+            </a>
+            <a href="mailto:care@ComfortAging.site" style="display: flex; align-items: flex-start; gap: 0.5rem;">
+              <svg class="icon" style="margin-top: 0.125rem;" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <span>care@ComfortAging.site</span>
+            </a>
+            <div style="display: flex; align-items: flex-start; gap: 0.5rem; font-size: 0.875rem; color: var(--muted-foreground);">
+              <svg class="icon" style="margin-top: 0.125rem;" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>Serving communities with compassion since 2010</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 ComfortAging. All rights reserved. HIPAA Compliant.</p>
+        <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: var(--muted-foreground);">
+          <span>Made with</span>
+          <svg class="icon" style="color: var(--primary); fill: var(--primary);" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+          <span>for our residents and their families</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
